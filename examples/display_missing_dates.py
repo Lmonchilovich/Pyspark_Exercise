@@ -2,7 +2,7 @@ import datetime
 from pyspark.sql.functions import col, collect_list
 from pyspark.sql import SparkSession
 
-path_video_samples = "s3://dataeng-interview-datasets/videos_sample_m"  # parquet dataset
+path_video_samples = "YOUR_S3_BUCKET_PATH_HERE"  # parquet dataset
 spark = SparkSession.builder.getOrCreate()
 
 # Loading the data
