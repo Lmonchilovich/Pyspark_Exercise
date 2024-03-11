@@ -3,7 +3,7 @@ from pyspark.sql.functions import date_format, col, sum
 from pyspark.sql import SparkSession
 
 # Loading the data
-path_video_samples = "s3://dataeng-interview-datasets/videos_sample_m"  # parquet dataset
+path_video_samples = "YOUR_S3_BUCKET_PATH_HERE"  # parquet dataset
 
 # Initiating the spark session
 spark = SparkSession.builder.getOrCreate()
